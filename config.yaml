@@ -1,0 +1,12 @@
+engine:
+  dataset: "/d/AI_Data/Difussion/cc12m.tsv"
+web:
+  folder: ""
+  server: ""
+backend:
+  host: ""
+  database:
+    server: ""
+    port: ""
+    username: ""
+    password: ""
