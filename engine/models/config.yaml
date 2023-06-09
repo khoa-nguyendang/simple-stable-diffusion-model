@@ -1,6 +1,7 @@
 engine:
   dataset: "/g/AI_Data/_dataset/summary.csv"
   datapath: "/g/AI_Data/_dataset/training"
+  pretrainedpath: "/g/AI_Data/_dataset/weights/sd-v1-4-full-ema.ckpt"
 web:
   folder: ""
   server: ""
