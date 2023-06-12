@@ -88,12 +88,16 @@ def produce_records(path):
             for f in files:
                 if f.endswith(".txt"):
                     img = f.replace(".txt", ".jpg")
-                    records.append([os.path.join(root, img), get_file_content(os.path.join(root, f))])
-            append_records_to_tsv(records, "/g/AI_Data/_dataset/summary.tsv")
+                    records.append(["training/" + img, get_file_content(root + "/" + f)])
+                    # records.append(["training/" +img, get_file_content(os.path.join(root, f))])
+            append_records_to_tsv(records, "/g/AI_Data/_dataset/summary_new.tsv")
+            print("success scan folder: ", root)
+            records = list()
+
     except Exception as e:
        print(e)
        append_text_to_file("/home/anhcoder/repos/github.com/khoa-nguyendang/simple-stable-diffusion-model/exceptions.txt", exception_to_string(e))
 
-#produce_records("/g/AI_Data/_dataset/training")
+# produce_records("/g/AI_Data/_dataset/training")
 
 #convert_csv_to_tsv("/g/AI_Data/_dataset/summary.csv", "/g/AI_Data/_dataset/summary.tsv", 3000000)
