@@ -76,7 +76,7 @@ def clone_dataset(file_path: str):
 
 
 #proc_tsv_v2("/k/AI_Data/Diffusions/training_full.tsv") 
-clone_dataset("/k/AI_Data/Diffusions/vehicles.tsv") 
+#clone_dataset("/k/AI_Data/Diffusions/vehicles.tsv") 
 
 
             

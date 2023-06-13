@@ -195,5 +195,5 @@ output_training_path = "/f/AI_Data/vehicles_vn.tsv"
 #make_dataset_v2(vehicle_tsv_path)
 
 
-produce_records("/f/AI_Data/vehicles", "/home/anhcoder/repos/github.com/khoa-nguyendang/simple-stable-diffusion-model/vehicles_urls.tsv")
+#produce_records("/f/AI_Data/vehicles", "/home/anhcoder/repos/github.com/khoa-nguyendang/simple-stable-diffusion-model/vehicles_urls.tsv")
 

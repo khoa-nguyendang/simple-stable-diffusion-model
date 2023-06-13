@@ -17,3 +17,6 @@ ftfy
 tensorboard
 diffusers
 xformers
+diffusers
+scipy
+safetensors
