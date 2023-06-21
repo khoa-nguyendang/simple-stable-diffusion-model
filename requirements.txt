@@ -20,3 +20,4 @@ xformers
 diffusers
 scipy
 safetensors
+ipykernel

@@ -14,7 +14,8 @@ for training model, you may need a machine with GPU engine
 
 ## Download training data and validation data
 ```
-$ pull-data.sh
+img2dataset --url_list /k/AI_Data/CC3M/cc3m_vn.tsv --input_format "tsv" --url_col "url" --caption_col "caption" --output_format webdataset\
+ --output_folder /k/AI_Data/CC3M/dataset --processes_count 16 --thread_count 64 --image_size 512
 ```
 
 
@@ -27,6 +28,7 @@ $ export CUDA_MODULE_LOADING="LAZY"
 
 ```
 
+
 ## Choose stack for fine-tuning
 In this project, I use 2 approach, 1 with pytorch base on diffusers
 ```
@@ -36,3 +38,4 @@ and another one via Kiras
 ```
 https://keras.io/examples/generative/finetune_stable_diffusion/
 ```
+
