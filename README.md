@@ -10,6 +10,7 @@ for training model, you may need a machine with GPU engine
 2. python
 3. img2dataset #https://github.com/rom1504/img2dataset
 4. cuda for ubuntu #https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local
+5. conda virtual env
 ```
 
 ## Download training data and validation data
@@ -24,7 +25,7 @@ img2dataset --url_list /k/AI_Data/CC3M/cc3m_vn.tsv --input_format "tsv" --url_co
 ```
 $ make prepare
 
-$ export CUDA_MODULE_LOADING="LAZY"
+conda install 
 
 ```
 
