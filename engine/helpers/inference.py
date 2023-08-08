@@ -22,7 +22,7 @@ def inference(w_path: str, is_url: bool) -> dict:
 
     for prompt in prompts:
         generated_images = finetuned_model.text_to_image(
-            prompt, 
+            prompt,
             batch_size=images_to_generate, 
             unconditional_guidance_scale=40
         )

@@ -14,3 +14,7 @@ chardet
 cchardet
 torchvision
 torchaudio
+matplotlib
+omegaconf
+safetensors
+patch_ng
