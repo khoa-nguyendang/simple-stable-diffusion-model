@@ -3,6 +3,10 @@ A full system and models that use Diffusion
 
 for training model, you may need a machine with GPU engine
 
+## Disclaimers.
+Open Source Disclaimer. 
+Notwithstanding anything in the Agreement to the contrary, khoa-nguyendang does not make any representation or warranty with respect to any OSS or free software that may be included in or accompany the Service. khoa-nguyendang HEREBY DISCLAIMS ANY AND ALL LIABILITY TO DEMAND PARTNER OR ANY THIRD PARTY RELATED TO ANY SUCH SOFTWARE THAT MAY BE INCLUDED IN OR ACCOMPANY THE SERVICE.
+
 ## Prerequisites
 
 ```
